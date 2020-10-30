@@ -1,4 +1,3 @@
-/*
 var restify = require('restify');
 
 var builder = require('botbuilder');
@@ -126,7 +125,7 @@ session.replaceDialog('basicQnAMakerDialog');
 }
 
 ]);
-*/
+/*
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
@@ -243,3 +242,4 @@ server.on('upgrade', (req, socket, head) => {
         await bot.run(context);
     });
 });
+*/
