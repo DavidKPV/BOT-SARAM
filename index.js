@@ -108,7 +108,7 @@ session.send('Please set QnAKnowledgebaseId, QnAAuthKey and QnAEndpointHostName 
 
 else {
 
-if (endpointHostName == null || endpointHostName == '')
+if (endpointHostName == null || endpointHostName == 'qnasaram.azurewebsites.net/qnamaker')
 
 // Replace with Preview QnAMakerDialog service
 
