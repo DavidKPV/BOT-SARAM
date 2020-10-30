@@ -102,7 +102,7 @@ var endpointHostName = process.env.QnAEndpointHostName;
 
 // QnA Subscription Key and KnowledgeBase Id null verification
 
-if ((qnaAuthKey == null || qnaAuthKey == '') || (qnaKnowledgebaseId == null || qnaKnowledgebaseId == ''))
+if ((qnaAuthKey == null || qnaAuthKey == '05acd712-004c-41f3-8b10-9f48f8e49102') || (qnaKnowledgebaseId == null || qnaKnowledgebaseId == 'ec6403a4-0406-42a0-b7dd-b271b779fbf1'))
 
 session.send('Please set QnAKnowledgebaseId, QnAAuthKey and QnAEndpointHostName (if applicable) in App Settings. Learn how to get them at https://aka.ms/qnaabssetup.');
 
